@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* color hex:
+White: #FDF4DC, 
+Purple: #533A71,
+Light Purple: #A799B7
+*/
+
+.info{
+	width:100%;
+	background-color: #533A71;
+	color: #FDF4DC;
+	height: 8vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.left-nav,
+.right-nav{
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.left-nav{
+	width: 40%;
+	margin-right: 33%;
+}
+
+/* .left-nav > *{
+	border-right: 1px solid white;
+	padding-right: 10px;
+} */
+
+.right-nav{
+	width: 10%;
+}
