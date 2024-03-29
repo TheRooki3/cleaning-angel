@@ -19,10 +19,10 @@ medium Purple: #968aa5
 	box-sizing: content-box;
 	background-color: #533A71;
 	color: #FDF4DC;
-	height: 8vh;
+	height: 52px;
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 5vh;
+	padding-bottom: 35px;
 }
 
 .left-nav,
