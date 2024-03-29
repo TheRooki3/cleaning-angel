@@ -44,11 +44,11 @@ medium Purple: #968aa5
 
 nav{
 	z-index: 777;
-	margin: 8vh auto 0 auto;
+	margin: 50px auto 0 auto;
 	width: 60%;
 	background-color: #968aa5;
 	color: #FDF4DC;
-	border: 3px solid #A799B7;
+	border: 3px solid #d2d2d3;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
