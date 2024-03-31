@@ -12,12 +12,16 @@ Light Purple: #A799B7
 medium Purple: #968aa5
 */
 
+body{
+	background-color: #FDF4DC;
+}
+
 .info{
 	top: 0;
 	width:100%;
 	position: absolute;
 	box-sizing: content-box;
-	background-color: blue;
+	background-color: #533A71;
 	color: #FDF4DC;
 	height: 52px;
 	display: flex;
@@ -44,7 +48,7 @@ medium Purple: #968aa5
 
 nav{
 	z-index: 777;
-	margin: 40px auto 0 auto;
+	margin: 48px auto 0 auto;
 	width: 60%;
 	background-color: #968aa5;
 	color: #FDF4DC;
@@ -66,8 +70,8 @@ nav{
 
 .nav-link{
 	background-color: #533A71;
-	padding: 8px 20px;
-	border-radius: 20px;
+	padding: 10px 20px;
+	border-radius: 15px;
 	text-decoration: none;
 	color: #FDF4DC;
 }
@@ -79,15 +83,17 @@ nav{
 	margin-top: 87px;
 	position: absolute;
 	top: 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Background.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
 }
 
 #book-now{
-	background-color: #ffffffa6;
-	width: 40%;
-	height:20vh;
+	background-color: #c1b2d3b0;
+	width: 30%;
+	height:200px;
 	display: flex;
 	justify-content:space-around;
 	text-align: center;
@@ -96,13 +102,46 @@ nav{
 	top: 45%;
 	transform: translate(-50%,-50%);
 	flex-wrap: wrap;
+	padding: 20px 0 ;
+}
+
+#book-now > p{
+	width:100%;
 }
 
 #book-now > h2{
-	margin-top: 3vh;
 	width: 100%;
 }
 
-.about{
-	height: 300vh;
+#book-now > button{
+	background-color: #533A71;
+	color: #FDF4DC;
+	border-radius: 30px;
+	padding: 8px 20px;
+	border: none;
+}
+
+#about{
+	background-color: #968aa5;
+	margin-top: 83vh;
+	height: 65vh;
+}
+
+#about > section{
+	display: grid;
+	justify-content: center;
+}
+
+#angel-bio > *{
+	margin: 10px auto;
+	text-align: center;
+}
+
+#angel-bio img{
+	border-radius: 50%;
+	margin: 40px auto;
+}
+
+#angel-bio p{
+	margin: 10px auto 40px auto;
 }
