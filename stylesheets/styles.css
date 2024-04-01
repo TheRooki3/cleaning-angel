@@ -240,6 +240,13 @@ nav{
 		display: none;
 	}
 }
+
+@media screen and (min-width: 1250px) {
+	nav{
+		justify-content: space-between;
+		margin-right: 0;
+	}
+}
 @media screen and (max-width: 900px){
 	.info{
 		display: none;
