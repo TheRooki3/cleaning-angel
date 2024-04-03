@@ -13,7 +13,7 @@ medium Purple: #968aa5
 */
 
 body{
-	background-color: #968aa5;;
+	background-color: #968aa5;
 }
 
 .info{
@@ -227,7 +227,7 @@ nav{
 #menu > * {
 	height: 14%;
 }
-.icon{
+.menu-underline{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.658);
 }
 
