@@ -45,7 +45,6 @@ menuBackground.addEventListener('click', ()=>{
 window.addEventListener("resize", ()=>{
 	if (window.innerWidth < 900){
 		hamMenu.style.display = "block";
-		menuBackground.style.display = "none";
 		serviceIcons.forEach((icon) =>{
 			icon.classList.remove("fa-6x");
 			icon.classList.add("fa-4x");
