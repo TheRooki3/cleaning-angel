@@ -42,6 +42,14 @@ body{
 	margin-right: 20%;
 }
 
+.phone-number,
+.email-address{
+	text-decoration: none;
+	color: #FDF4DC;
+}
+
+
+
 .right-nav{
 	width: 20%;
 }
@@ -268,8 +276,8 @@ nav{
 
 .menu-link:hover{
 	background-color: #FDF4DC;
-	color: #533A71;
 }
+
 @media screen and (min-width: 1600px) {
 	nav{
 		width:45%;
